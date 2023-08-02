@@ -1,8 +1,9 @@
 #include "binary_trees.h"
 /**
- * binary_tree_nodes - function that returns # of nodes in a tree with children
- * @tree: tree to check
- * Return: number of nodes with children
+ * binary_tree_nodes - func that counts the nodes
+ * with at least 1 child in a binary tree
+ * @tree: pointer to the root nod
+ * Return:  tree is NULL, the function must return 0
  */
 
 size_t binary_tree_nodes(const binary_tree_t *tree)
