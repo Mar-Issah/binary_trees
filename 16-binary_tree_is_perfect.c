@@ -41,7 +41,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * tree_is_perfect - func that checks if a binary
+ * binary_tree_is_perfect - func that checks if a binary
  * tree is perfect
  * @tree: pointer to the root node of the tree to check
  * Return: tree is NULL, your function must return 0
